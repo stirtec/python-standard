@@ -1,0 +1,23 @@
+{
+    "python.analysis.typeCheckingMode": "strict",
+    "ruff.enable": true,
+    "ruff.lint.enable": true,
+    "ruff.organizeImports": true,
+    "ruff.lint.extendSelect": [
+        "FAST",
+        "I",
+        "F",
+        "E",
+        "C90",
+        "W",
+        "ANN",
+        "UP"
+    ],
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    }
+}
